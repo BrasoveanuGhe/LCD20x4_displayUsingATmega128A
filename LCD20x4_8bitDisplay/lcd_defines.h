@@ -25,19 +25,19 @@ char displayFloatNum[20];
 /**************************************************************/
 /*			List of commonly used LCD Commands			      */
 /**************************************************************/
-#define LCD_CLEAR						0x01     
+#define LCD_CLEAR				0x01     
  
-#define LCD_RETURN_HOME					0x02
+#define LCD_RETURN_HOME				0x02
 
-#define LCD_INCREMENT_RIGHT				0x06
-#define LCD_DECREMENT_LEFT				0x04
+#define LCD_INCREMENT_RIGHT			0x06
+#define LCD_DECREMENT_LEFT			0x04
 
 #define LCD_DISPLAY_ON_CURSOR_OFF		0x0C    
 #define LCD_DISPLAY_ON_CURSOR_ON		0x0E     
 #define LCD_DISPLAY_ON_CURSOR_BLINK		0x0F  
 
-#define LCD_FOUR_BIT_MODE				0x28	       
-#define LCD_EIGHT_BIT_MODE				0x38 // 8 bits; 2 lines; 5x8 dots (character size)
+#define LCD_FOUR_BIT_MODE			0x28	       
+#define LCD_EIGHT_BIT_MODE			0x38 // 8 bits; 2 lines; 5x8 dots (character size)
 
 #define LCD_CURSOR_HOME_POSITION		0x80
 
